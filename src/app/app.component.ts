@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'the Peterson Grammar School Reunion page';
+  title = 'the Peterson Grammar School Reunion site';
 }

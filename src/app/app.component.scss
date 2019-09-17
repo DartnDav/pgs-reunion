@@ -1,19 +1,62 @@
-html {
-    background-color: maroon;
-    margin: 0;
-    padding: 0;
+// html {
+//     background-color: maroon;
+//     margin: 0;
+//     padding: 0;
 
-  }
+//   }
 
-.TitleBar {
-    background-color: maroon;
-    color: gold;
-}
+// .TitleBar {
+//     background-color: maroon;
+//     color: gold;
+// }
 
-.PGSR_Profile{
-    max-width: 95%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-    margin-bottom: 25px;
-}
+.PGSR_Profile {
+        max-width: 100%;
+        height: 50%;
+        text-align: center;
+        animation: fadein 5s;
+        -moz-animation: fadein 5s; /* Firefox */
+        -webkit-animation: fadein 5s; /* Safari and Chrome */
+        -o-animation: fadein 5s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+
+// .PGSR_Profile{
+//     max-width: 95%;
+//     height: auto;
+//     border-radius: 8px;
+//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+//     margin-bottom: 25px;
+// }

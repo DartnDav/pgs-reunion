@@ -1,10 +1,45 @@
-html {
-    background-color: maroon;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-width: 100%;
+}
+
+.main {
+  box-sizing: border-box;
+}
 
 .TitleBar {
-    color: gold;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  background-color: maroon;
+  color: gold;
+  font-size: 3.1vw;
+  // text-size-adjust: 
+}
+
+#left_draw {
+  float: left;
+}
+
+#drawpic {
+border-radius: 5px; 
+padding: 4px;
+}
+
+#right_paint {
+  float: right
+}
+
+#paintpic {
+  border-radius: 5px;
+  padding: 4px;
+}
+
+#nav {
+  margin-top: 4px;
+  border-block: 4px;
 }

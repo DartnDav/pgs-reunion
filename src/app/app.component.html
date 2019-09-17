@@ -1,32 +1,36 @@
 <div class="main" style="text-align:center">
-  <div class="TitleBar">
-    <h1>
-      Welcome to {{ title }}!
-    </h1>
+  <div id="left_draw">
+    <img id="drawpic" width="100" alt="Peterson Drawing" src="./assets/draw_school.jpg">
   </div>
-  <img class="PGSR_Profile" width="900" alt="Profie" src="./assets/PGSR_Profile.jpg">
+  <div id="right_paint">
+    <img id="paintpic" width="100" alt="Peterson Painting" src="./assets/mgp_school.jpg">
+  </div>
+  <div class="TitleBar">
+    Welcome to {{ title }}!
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a href="#">History</a></h2>
-  </li>
-  <li>
-    <h2><a href="#">Pictures</a></h2>
-  </li>
-  <li>
-    <h2><a href="#">Sign in book</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<div id="nav">
+  <h2>Here are some links to help you start: </h2>
+  <ul>
+    <li>
+      <h2><a href="#">History</a></h2>
+    </li>
+    <li>
+      <h2><a href="#">Pictures</a></h2>
+    </li>
+    <li>
+      <h2><a href="#">Sign in book</a></h2>
+    </li>
+    <li>
+      <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+    </li>
+    <li>
+      <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+    </li>
+    <li>
+      <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+    </li>
+  </ul>
+</div>
 
 <router-outlet></router-outlet>
